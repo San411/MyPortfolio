@@ -1,0 +1,512 @@
+<!-- HELLO
+-
+DevFolio is a minimal, clean, lightweight and fully responsive template for Devlopers!
+Created by Anil Seervi.
+-
+GitHub repo: https://github.com/AnilSeervi/DevFolio
+README: https://github.com/AnilSeervi/DevFolio/blob/master/README.md
+-
+Have fun creating your portfolio on this template!!! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <!-- Title: add your Portfolio websites's title here -->
+    <title>Sandesh Bhat | Engineer</title>
+
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], Sandesh Bhat, skill" />
+
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="Sandesh Bhat | Engineer" />
+
+    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
+
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="#36d1dc" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <!-- Fill content with the URL of this portfolio you'll host -->
+    <meta property="og:url" content="https://devfolio.js.org/" />
+    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+    <meta property="og:title" content="Sandesh Bhat | Engineer" />
+    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+      so that a thumbnail image of your portfolio is shown while shared on other platform -->
+    <meta
+      property="og:image"
+      content="https://devfolio.js.org/assets/devfolio.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <!-- Again fill content attr with the URL of this portfolio you'll host -->
+    <meta property="twitter:url" content="https://devfolio.js.org" />
+    <!-- Recommended to use the same text used within <title> element -->
+    <meta property="twitter:title" content="[Your name here] | Developer" />
+    <!-- short description that shows up while your portfolio is shared -->
+    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
+    <meta
+      property="twitter:image"
+      content="https://anilseervi.vercel.app/assets/devfolio.png"
+    />
+
+    <!-- link tags -->
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- FontAwesome Icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+
+    <!-- Remove Google Analytics once you have your portfolio website set-up -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+
+      gtag("config", "UA-122228201-4")
+    </script>
+    <!-- End of Google Analytics -->
+  </head>
+  
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi, my name is <span class="text-color-main name">Sandesh Bhat</span>
+          <br />
+          - MSc in Computer Science.
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"x
+              src="./assets/IMG_20241014_131120.jpg"
+              alt="Profile Image"
+              width="100"
+              height="400"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              I am currently pursuing a Master’s in Computer Science (Negotiated Learning) at University College 
+              Dublin, Ireland, with a strong focus on Data, AI, and Machine Learning. 
+              My academic coursework and hands-on projects have deepened my expertise in these areas, 
+              aligning with my passion for leveraging data-driven technologies to solve complex problems.
+              
+            <p class="about-wrapper__info-text">
+              With over 2.5 years of professional experience at one of the world’s leading companies, 
+              I have successfully contributed to multiple projects involving Optical Character Recognition (OCR), 
+              Robotic Process Automation (RPA), and Power Platform. 
+              These experiences have sharpened my technical skills and honed my ability to deliver 
+              innovative solutions in dynamic and fast-paced environments.
+            </p>
+            <span class="about-wrapper__cta">
+              <a href="https://drive.google.com/file/d/1fN4Qsl5p_UAhm461H_VCsMqgVd9pPMjp/view?usp=sharing" class="cta-btn cta-btn--resume">View Resume</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Classification of Galaxy Morphology and Detection of Potential Exoplanet</h3>
+              <p class="project-wrapper__text-info">
+                Classified the Galaxy Morphologies based on Hubble Scheme by adopting rule based approach and used supervised
+                Machine Learning to identify candidates for potential exoplanets using Kepler data.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://github.com/GalaxyMorphologyAndExoplanetDetection/ML_Modelling"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Source Code</a
+                >
+                <!-- <a href="https://github.com/GalaxyMorphologyAndExoplanetDetection/ML_Modelling" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                > -->
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/Galaxy.jpg"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Poverty Prediction from Satellite Images:</h3>
+              <p class="project-wrapper__text-info">
+                A novel machine learning
+                approach for extracting socioeconomic data from
+              high-resolution day light and night light satellite imagery to predict poverty.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://github.com/San411/Predicting-Poverty-Replication"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Source Code</a
+                >
+                <!-- <a href="https://github.com/San411/Predicting-Poverty-Replication" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                > -->
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/Earth.jpg"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Web Traffic Forecasting</h3>
+              <p class="project-wrapper__text-info">
+                The aim of this project is predicting future values for multiple time series problems. Each time
+                  series contains daily traffic on the Wikipedia page for a total of 803 days from 2015-07-01 to
+                  2017-09-10. We have a total of 145k time series which means we have data for 145k pages, our
+                  goal is to analyse this data, build a model on it and predict future traffic on each of the pages.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://github.com/San411/Time-Series-Analysis"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Source Code</a
+                >
+                <!-- <a href="https://github.com/San411/Time-Series-Analysis" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                > -->
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/Web_Traffic.jpg"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/JCI.png"
+              alt="Profile Image"
+              width="100"
+              height="200"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <h2>IT Analyst - Johnson Controls (Jan 2022 - Aug 2024)</h2>
+            <br>
+            <p class="about-wrapper__info-text">
+              Led the development of the Compliance Tracker, automating governance tasks using Power Automate, 
+              which improved
+            efficiency by 80% and reduced manual efforts by the equivalent of 4 full-time employees.
+            Contributed to the development of Sandman, an integrated Start/Stop flow with MS Azure, 
+            resulting in annual
+            savings exceeding $200,000 for the COE team
+            </p>
+          </div>
+        </div>
+        <br><br><br><br><br><br>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/Cognition.jpeg"
+              alt="Profile Image"
+              width="100"
+              height="300"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <h2>Technical Head - Cognition India (June 2021 - July 2021)</h2>
+            <br>
+            <p class="about-wrapper__info-text">
+              Developed an Email automation application to send bulk emails along with a PDF as an attachment 
+              containing the receivers name modified in it. 
+              The script is developed using the smtp library in python.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Certificates Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text"> Certifications</h2>
+
+          <!-- Each .row is a project -->
+                   <!-- Each .row is a project -->
+                   <article class="row">
+                    <div class="project-wrapper__text">
+                      <h3 class="project-wrapper__text-title">Neural Networks and Deep Learning <br>- deeplearning.ai</h3>
+                      <p class="project-wrapper__text-info">
+                        This course, by one of the most popular American Computer Scientist is easily the most complex course 
+                        I have ever completed. 
+                        It included topics such as Shallow and Deep Neural Networks Logistic Regression and Vectorization.
+                      </p>
+                      <a
+                          href="https://www.coursera.org/account/accomplishments/verify/SYDAP5AV67A5?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="cta-btn cta-btn--hero cta-btn--projects"
+                          >View Credentials</a
+                        >
+                    </div>
+        
+                    <div class="project-wrapper__image">
+                      <a href="#" target="_blank" rel="noopener noreferrer">
+                          <img
+                            src="./assets/DL-removebg-preview.png"
+                            class="img-fluid"
+                            alt="Project Image"
+                            width="450"
+                            height="225"
+                          />
+                      </a>
+                    </div>
+                  </article>
+          <!-- /END Certificate -->
+           
+                    <!-- Each .row is a project -->
+                    <article class="row">
+                      <div class="project-wrapper__text">
+                        <h3 class="project-wrapper__text-title">Machine Learning A-Z™: Hands-On Python & R In Data Science <br>- Udemy</h3>
+                        <p class="project-wrapper__text-info">
+                          This course is the major reason that got me interested in the field of Machine Learning. 
+                          The basic Algorithms in machine learning such as Regression, Classification, Clustering. 
+                          It also introduced me to the basics of NLP and Deep Learning. 
+                          The hands on session in this course in the best part of it. 
+                          The materials provided for this course are also a highlight.
+                        </p>
+                        <a
+                            href="https://www.udemy.com/certificate/UC-425d67c2-f7ce-4f33-8dfd-eb8f6a9872d4/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="cta-btn cta-btn--hero cta-btn--projects"
+                            >View Credentials</a
+                          >
+                      </div>
+          
+                      <div class="project-wrapper__image">
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <img
+                              src="./assets/Udemy.png"
+                              class="img-fluid"
+                              alt="Project Image"
+                              width="450"
+                              height="255"
+                            />
+                        </a>
+                      </div>
+                    </article>
+                    <!-- /END Certificate -->
+
+          <!-- Each .row is a Certificate -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">RPA Developer Foundation <br>- UiPath</h3>
+              <p class="project-wrapper__text-info">
+                The lessons in this program were created with the help of some of the best developers from UiPath. 
+                Throughout this learning path, it aim to offer a well-structured plan, best practices, 
+                examples that draw from their experience and lots of hands-on exercises.
+              </p>
+              <a
+                  href="https://drive.google.com/file/d/1sMA_LRexZ67rKs8LKEPnXyrU3QeVHst3/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >View Credentials</a
+                >
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                  <img
+                    src="./assets/uipath-logo.webp"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="350"
+                    height="325"
+                  />
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <!-- <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">[Put your call to action here]</p>
+          <a href="#" class="cta-btn cta-btn--resume">Call to Action</a>
+        </div>
+      </div>
+    </section> -->
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            href="mailto:sandeshbhat2000@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="envelope"
+          >
+            <i class="fa fa-envelope"></i>
+          </a>
+          <!-- <a
+            href="#!"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a> -->
+          <a
+            href="https://www.kaggle.com/sandeshbhat"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="kaggle"
+          >
+            <i class="fa-brands fa-kaggle"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sandesh-bhat-0243241aa/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/San411"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <hr />
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear()
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
